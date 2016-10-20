@@ -1,0 +1,13 @@
+{
+  "document":{
+    "type":"PLAIN_TEXT",
+    "content":"Michelangelo Caravaggio, Italian painter, is known for
+              'The Calling of Saint Matthew'."
+  },
+  /*"features":{
+    "extractSyntax":true,
+    "extractEntities":true,
+    "extractDocumentSentiment":true
+  },*/
+  "encodingType":"UTF8"
+}

@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red42\green55\blue62;\red245\green245\blue245;\red42\green55\blue62;
+\red245\green245\blue245;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c21569\c27843\c30980;\cssrgb\c96863\c96863\c96863;\cssrgb\c21569\c27843\c30980;
+\cssrgb\c96863\c96863\c96863;\csgray\c0;\csgray\c100000;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 gcloud auth print-access-token\cf4 \cb5 \outl0\strokewidth0 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf4 \
+curl -s -k -H "Content-Type: application/json" \\\
+    -H "Authorization: Bearer 
+\f1\fs22 \cf6 \cb7 \kerning1\expnd0\expndtw0 \CocoaLigature0 ya29.CjB7A18AWNIyRwR4iBloaj_w7vW5MFxp4kimMuh2ZjZMXLCzQY2avndOYtd9EyX6gr8
+\f0\fs28 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\CocoaLigature1 " \\\
+    https://language.googleapis.com/v1beta1/documents:analyzeEntities \\\
+    -d @entity-request.json\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf6 \cb7 \kerning1\expnd0\expndtw0 \CocoaLigature0 export GOOGLE_APPLICATION_CREDENTIALS=DualEncore-86da983e6c43.json\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 python sentiment-analysis.py reviews/bladerunner-pos.txt\
+}
